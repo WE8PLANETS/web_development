@@ -1,0 +1,120 @@
+<html>
+    <style type="text/css">
+    input[type=text]  {background-color:#fffdd0;
+                        color: black}
+    
+                        input[type=number]  {background-color:#fffdd0;
+                        color: black}
+            body {
+        background-color: lightseagreen;
+       margin-left: 20%;
+       margin-right: 20%;
+       border: 3px dotted black;
+        padding: 10px 10px 10px 10px;
+        font-family: sans-serif;
+        }
+        </style>
+    <head>
+        <title>INCOME TAX RETURN</title>
+    </head>
+    <body >
+        
+         <h1>Online Form To File ( ITR (2018-2019)</h1>
+        <table>
+            <tr>
+                <td>Name : </td>
+                <td><input type=text Name=name></td>
+            </tr>
+            <tr>
+                <td>Date Of Birth : </td>
+                <td><input type=date Name=DOB ></td>
+            </tr>
+            <tr>
+                <td>Nationality : </td>
+                <td><input type=radio id="INDIA" Name="Nationality" alue="INDIA">
+                INDIA
+                <input type="radio" id="Other" name="Nationality" value="OTHER">
+                OTHER</td>
+            </tr>
+
+            <tr>
+                <td>Address 1 : </td>
+                <td><input type=text Name=Address1 ></td>
+            </tr><tr>
+                <td>Address 2: </td>
+                <td><input type=text Name=Address2 ></td>
+            </tr>
+            <tr>
+                <td>City : </td>
+                <td><input type=text Name=City ></td>
+            </tr><tr>
+                <td>State : </td>
+                <td><Select id=state>
+                    <option>select state</option>
+                    <option>Sikkim</option>
+                    <option>Tamil Nadu</option>
+                    <option>Kerala</option>
+                    <option>Bihar</option>
+                    <option>Delhi</option>
+                    <option>Uttarakhand</option>
+                    <option>Uttar Pradesh</option>
+                </td>
+            </tr>
+            <tr>
+                <td>Pin : </td>
+                <td><input type=text Name=Pin ></td>
+            </tr>
+            <tr>
+                <td>Mobile : </td>
+                <td><input type=text Name=Mobile ></td>
+            </tr>   
+            <tr>
+                <td>Email ID : </td>
+                <td><input type=text Name=Email ></td>
+            </tr><tr>
+                <td>Total Income(2018-19): </td>
+                <td><input type=number Name=totalincome ></td>
+            </tr>
+            <tr>
+                <td>Investments : <ol type=a>
+                    <li>PPF             :<input type=number name=ppf ></li>
+                    <li>NSC             :<input type=number name=nsc ></li>
+                    <li>Mutual Fonds    :<input type=number name=mutualfond ></li>
+                    <li>Medical Policies:<input type=number name=medicalpolicies ></li>
+                    <li>Home Loans      :<input type=number name=homeloans ></li>
+                </ol> </td>
+        
+            </tr>
+            <tr>
+                <td>No Of Department : </td>
+                <td><Select id=noofdepartment>
+                    <option>select</option>
+                    <option>1</option>
+                    <option>2</option>
+                    <option>3</option>
+                    <option>4</option>
+                    <option>5</option>
+                    <option>6</option>
+                </td>
+            </tr><tr>
+                <td>Aadhar No: </td>
+                <td><input type=text Name=aadahar></td>
+            </tr>
+            <tr>
+                <td>For Refund : <ol type=a>
+                    <li>Bank A/C  <input type=number name=bankac ></li>
+                    <li>IFSC      <input type=text name=ifsc ></li>
+                </ol> </td>
+        
+            </tr>
+
+            <tr>
+                <td>Remarks: if any
+                <textarea id=Remarks cols=40 rows=5 Name=remarks></textarea></td>
+            </tr>      
+        
+        </table>
+        </form>
+
+    </body>
+</html>
